@@ -1,8 +1,9 @@
-import { task } from "hardhat/config";
-import { HardhatRuntimeEnvironment } from "hardhat/types";
+/* eslint-disable prettier/prettier */
+import { getSupportedNetworks } from "@zetachain/networks";
 import { getAddress } from "@zetachain/protocol-contracts";
 import { ethers } from "ethers";
-import { getSupportedNetworks } from "@zetachain/networks";
+import { task } from "hardhat/config";
+import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 const contractName = "CrossChainWarriors";
 

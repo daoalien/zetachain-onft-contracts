@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import "@nomicfoundation/hardhat-toolbox";
 import "@zetachain/toolkit/tasks";
 
